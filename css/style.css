@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+font-family: 'Tajawal', sans-serif;
+}
+
+:root{
+--main-color:rgba(65, 65, 252, 0.87);
+}
+ul {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #000 !important;
+
+}
+.offcanvas h5,.navbar-brand
+{
+  font-family: 'Reem Kufi', sans-serif !important;
+
+}
+.navbar{
+  border-bottom: 1px solid var(--main-color);
+  box-shadow: 0 0 10px var(--main-color);
+}
+.navbar-toggler{
+  border: 2px solid var(--main-color) !important;
+}
+.nav-item:hover ,.active{
+  border-radius: 8px;
+  background-color: var(--main-color);
+  transition: .7s;
+  -webkit-transition: .7s;
+  -moz-transition: .7s;
+  -ms-transition: .7s;
+  -o-transition: .7s;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.nav-item:hover a:not(.dropdown-item),.active{
+
+  color: #fff !important;
+  transition: .7s;
+  -webkit-transition: .7s;
+  -moz-transition: .7s;
+  -ms-transition: .7s;
+  -o-transition: .7s;
+}
+.dropdown-menu{
+  border: 0 !important;
+}
+.dropdown-menu{
+  border-bottom: 2px solid var(--main-color) !important;
+
+
+}
+.dropdown-item:hover{
+  color: var(--main-color) !important;
+  transition: .7s;
+  -webkit-transition: .7s;
+  -moz-transition: .7s;
+  -ms-transition: .7s;
+  -o-transition: .7s;
+}
+.carousel-inner h5,.card-title{
+  color: var(--main-color);
+  font-weight: 900 !important;
+}
+
+.carousel-caption{
+  background-color: #0000009a;
+  margin-bottom: 60vh !important;
+  border: 1px solid var(--main-color);
+  box-shadow: 0 0 10px var(--main-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+@media (max-width:400px) {
+  .carousel-inner{
+    height: 50vh !important;
+    margin-top: 50px !important;
+  }
+}
+
+@media (min-width:401px) and (max-width:1000px){
+  .carousel-inner{
+    height: 85vh !important;
+  }
+  .carousel-caption{
+    margin-bottom: 30vh !important;
+  }
+
+}
+
+@media (min-width:1002px) {
+  .carousel-inner{
+    height: 100vh !important;
+  }
+
+
+
+}
+.list-unstyled li{
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.about{
+  background-color: #f7f7f8;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.icons{
+  background-color: #fff;
+  border: 1px solid var(--main-color);
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.fa-facebook{
+  color:#3b5998 ;
+}
+.fa-instagram{
+  color: #C32AA3;
+}
+.fa-twitter{
+  color:#00aced;
+}
+.fa-whatsapp{
+  color: #25D366 ;
+}
+.fa-3x:hover{
+  cursor: pointer;
+}
+
